@@ -1,4 +1,4 @@
-:root.theme_light {
+:root.theme-light {
   --bg-image: url(../images/cover-image-light.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -17,7 +17,7 @@
   --bg-color: #fff1f7;
 }
 
-.page.theme_light .rec {
+.page.theme-light .rec {
   display: none;
 }
 
@@ -41,7 +41,7 @@
   --bg-color: #fff1f7;
   }
 
-  .page.theme_light .rec {
+  .page.theme-light .rec {
     display: none;
   }
 }
