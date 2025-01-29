@@ -5,7 +5,7 @@
   background-attachment: fixed;
   font-family: var(--main-font-family);
   color: #353430;
-  font-size: var(--main-font-size);
+  font-size: var(--main-font-size-standart);
   --title-color: #FFC2E6;
   --accent-color: #FF8DCB;
   --text-color: #353430;
