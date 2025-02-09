@@ -1,56 +1,51 @@
-:root.theme-light {
-  --bg-image: url(../images/cover-image-light.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  font-family: var(--main-font-family);
-  color: #353430;
-  font-size: var(--main-font-size-standart);
-  --title-color: #FFC2E6;
-  --accent-color: #FF8DCB;
-  --text-color: #353430;
-  --title-shadow-color: #ff0070;
-  --main-text-color: #353430;
-  --decorated-color: #353430;
-  --section-text-color: var(--main-text-color);
-  --button-color: var(--text-color);
-  --bg-color: #fff1f7;
-}
 
-.page.theme-light .rec {
-  display: none;
+:root.theme-light {
+  --accent-color: var(--basic-pink);
+  --title-color: var(--title-pink);
+  --page-bg-color: var(--almost-white-bg);
+  --header-text-bg-color: var(--basic-pink);
+  --header-text-color: var(--almost-black);
+  --question-bg-color:  var(--almost-white-bg);
+  --question-color:  var(--almost-black);
+  --answer-title-bg-color: var(--basic-pink);
+  --answer-title-color: var(--almost-black);
+  --answer-text-bg-color: var(--almost-white-bg);
+  --answer-text-color: var(--almost-black);
+  --advice-title-bg-color:  var(--basic-pink) ;
+  --advice-title-color: var(--almost-black);
+  --button-color: var(--almost-black);
+  --border-color-opacity: #32312D66;
+  --background-image:  url("../images/cover-image-light.png");
+  --deco-color: var(--almost-black);
+
+
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-  --bg-image: url(../images/cover-image-light.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  font-family: var(--main-font-family);
-  color: #353430;
-  font-size: var(--main-font-size-standart);
-  --title-color: #FFC2E6;
-  --accent-color: #FF8DCB;
-  --text-color: #353430;
-  --title-shadow-color: #ff0070;
-  --main-text-color: #353430;
-  --decorated-color: #353430;
-  --section-text-color: var(--main-text-color);
-  --button-color: var(--text-color);
-  --bg-color: #fff1f7;
+    --accent-color: var(--basic-pink);
+    --title-color: var(--title-pink);
+    --page-bg-color: var(--almost-white-bg);
+    --header-text-bg-color: var(--basic-pink);
+    --header-text-color: var(--almost-black);
+    --question-bg-color:  var(--almost-white-bg);
+    --question-color:  var(--almost-black);
+    --answer-title-bg-color: var(--basic-pink);
+    --answer-title-color: var(--almost-black);
+    --answer-text-bg-color: var(--almost-white-bg);
+    --answer-text-color: var(--almost-black);
+    --advice-title-bg-color:  var(--basic-pink) ;
+    --advice-title-color: var(--almost-black);
+    --button-color: var(--almost-black);
+    --border-color-opacity: #32312D66;
+    --background-image:  url("../images/cover-image-light.png");
+    --deco-color: var(--almost-black);
+
   }
 
-  .page.theme-light .rec {
-    display: none;
-  }
 }
 
-@media (width >= 1024px) {
-  .title {
-    text-shadow: 4px 4px 0px var(--title-shadow-color);
-  }
-  .footer__text {
-    text-shadow: 2px 2px 0px var(--title-shadow-color);
-  }
+.theme-light .rec_empty::before,
+.theme-light .rec_empty::after {
+  display: none;
 }
