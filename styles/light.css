@@ -1,45 +1,45 @@
 
 :root.theme-light {
-  --accent-color: var(--basic-pink);
-  --title-color: var(--title-pink);
-  --page-bg-color: var(--almost-white-bg);
-  --header-text-bg-color: var(--basic-pink);
-  --header-text-color: var(--almost-black);
-  --question-bg-color:  var(--almost-white-bg);
-  --question-color:  var(--almost-black);
-  --answer-title-bg-color: var(--basic-pink);
-  --answer-title-color: var(--almost-black);
-  --answer-text-bg-color: var(--almost-white-bg);
-  --answer-text-color: var(--almost-black);
-  --advice-title-bg-color:  var(--basic-pink) ;
-  --advice-title-color: var(--almost-black);
-  --button-color: var(--almost-black);
+  --accent-color: var(--basic-color-light-theme);
+  --title-color: var(--title-color-light-theme);
+  --page-bg-color: var(--sections-bg-color-light-theme);
+  --header-text-bg-color: var(--basic-color-light-theme);
+  --header-text-color: var(--text-color-light-theme);
+  --question-bg-color:  var(--sections-bg-color-light-theme);
+  --question-color:  var(--text-color-light-theme);
+  --answer-title-bg-color: var(--basic-color-light-theme);
+  --answer-title-color: var(--text-color-light-theme);
+  --answer-text-bg-color: var(--sections-bg-color-light-theme);
+  --answer-text-color: var(--text-color-light-theme);
+  --advice-title-bg-color:  var(--basic-color-light-theme) ;
+  --advice-title-color: var(--text-color-light-theme);
+  --button-color: var(--text-color-light-theme);
   --border-color-opacity: #32312D66;
   --background-image:  url("../images/cover-image-light.png");
-  --deco-color: var(--almost-black);
+  --deco-color: var(--text-color-light-theme);
 
 
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-    --accent-color: var(--basic-pink);
-    --title-color: var(--title-pink);
-    --page-bg-color: var(--almost-white-bg);
-    --header-text-bg-color: var(--basic-pink);
-    --header-text-color: var(--almost-black);
-    --question-bg-color:  var(--almost-white-bg);
-    --question-color:  var(--almost-black);
-    --answer-title-bg-color: var(--basic-pink);
-    --answer-title-color: var(--almost-black);
-    --answer-text-bg-color: var(--almost-white-bg);
-    --answer-text-color: var(--almost-black);
-    --advice-title-bg-color:  var(--basic-pink) ;
-    --advice-title-color: var(--almost-black);
-    --button-color: var(--almost-black);
+    --accent-color: var(--basic-color-light-theme);
+    --title-color: var(---title-color-light-theme);
+    --page-bg-color: var(--sections-bg-color-light-theme);
+    --header-text-bg-color: var(--basic-color-light-theme);
+    --header-text-color: var(--text-color-light-theme);
+    --question-bg-color:  var(--sections-bg-color-light-theme);
+    --question-color:  var(--text-color-light-theme);
+    --answer-title-bg-color: var(--basic-color-light-theme);
+    --answer-title-color: var(--text-color-light-theme);
+    --answer-text-bg-color: var(--sections-bg-color-light-theme);
+    --answer-text-color: var(--text-color-light-theme);
+    --advice-title-bg-color:  var(--basic-color-light-theme) ;
+    --advice-title-color: var(--text-color-light-theme);
+    --button-color: var(--text-color-light-theme);
     --border-color-opacity: #32312D66;
     --background-image:  url("../images/cover-image-light.png");
-    --deco-color: var(--almost-black);
+    --deco-color: var(--text-color-light-theme);
 
   }
 
