@@ -200,8 +200,8 @@
   font-weight: normal;
   color: var(--advice-title-color);
   background-color: var(--advice-title-bg-color);
-  margin-top: 20px;
   /*
+  margin-top: 20px;
   margin-bottom: 10px;
   */
 }
@@ -339,6 +339,10 @@
     grid-template-areas:
     'question_why answers_why';
     gap: 20px;
+  }
+
+  .question_why {
+    padding-top: 20px;
   }
 
   .section_what {
